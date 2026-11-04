@@ -1,0 +1,3 @@
+﻿shop_id,shop_name,platform,account_id,business,data_as_of,dataset_version,is_demo
+a,山序男装,douyin_shop,TEST-ACCOUNT-A,商品销售与快递发货,2026-10-16T10:00:00+08:00,douyin-ops-v1,True
+b,知织女装,douyin_shop,TEST-ACCOUNT-B,商品销售与快递发货,2026-10-16T10:00:00+08:00,douyin-ops-v1,True

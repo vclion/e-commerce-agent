@@ -1,0 +1,7 @@
+﻿reference_id,shop_id,account_name,title,source,media_path,is_synthetic_reference,public_views,public_likes,backend_completion_rate,backend_paid_fen,transcript,scene_notes,dataset_version,is_demo
+TEST-PEER-a-0,a,虚构同行a0,通勤衬衫三步搭配,demo://douyin-ops-v1/peer/a/0,media/peer_reference.mp4,True,20000,600,,,0-4秒：用通勤搭配问题开场。4-8秒：展示面料与版型细节。8-12秒：提示查看商品尺码表。,三段彩色占位动画，分别代表开场、细节和行动引导；不是实际服装实拍。,douyin-ops-v1,True
+TEST-PEER-a-1,a,虚构同行a1,尺码实测怎么拍,demo://douyin-ops-v1/peer/a/1,media/peer_reference.mp4,True,40000,1200,,,0-4秒：用通勤搭配问题开场。4-8秒：展示面料与版型细节。8-12秒：提示查看商品尺码表。,三段彩色占位动画，分别代表开场、细节和行动引导；不是实际服装实拍。,douyin-ops-v1,True
+TEST-PEER-a-2,a,虚构同行a2,一件衣服三个场景,demo://douyin-ops-v1/peer/a/2,media/peer_reference.mp4,True,60000,1800,,,0-4秒：用通勤搭配问题开场。4-8秒：展示面料与版型细节。8-12秒：提示查看商品尺码表。,三段彩色占位动画，分别代表开场、细节和行动引导；不是实际服装实拍。,douyin-ops-v1,True
+TEST-PEER-b-0,b,虚构同行b0,通勤衬衫三步搭配,demo://douyin-ops-v1/peer/b/0,media/peer_reference.mp4,True,20000,600,,,0-4秒：用通勤搭配问题开场。4-8秒：展示面料与版型细节。8-12秒：提示查看商品尺码表。,三段彩色占位动画，分别代表开场、细节和行动引导；不是实际服装实拍。,douyin-ops-v1,True
+TEST-PEER-b-1,b,虚构同行b1,尺码实测怎么拍,demo://douyin-ops-v1/peer/b/1,media/peer_reference.mp4,True,40000,1200,,,0-4秒：用通勤搭配问题开场。4-8秒：展示面料与版型细节。8-12秒：提示查看商品尺码表。,三段彩色占位动画，分别代表开场、细节和行动引导；不是实际服装实拍。,douyin-ops-v1,True
+TEST-PEER-b-2,b,虚构同行b2,一件衣服三个场景,demo://douyin-ops-v1/peer/b/2,media/peer_reference.mp4,True,60000,1800,,,0-4秒：用通勤搭配问题开场。4-8秒：展示面料与版型细节。8-12秒：提示查看商品尺码表。,三段彩色占位动画，分别代表开场、细节和行动引导；不是实际服装实拍。,douyin-ops-v1,True

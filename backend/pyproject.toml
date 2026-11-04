@@ -1,0 +1,28 @@
+[project]
+name = "commerce-copilot-backend"
+version = "0.1.0"
+description = "Commerce Copilot business API"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "uvicorn>=0.34,<1",
+  "sqlalchemy>=2.0,<2.1",
+  "psycopg[binary]>=3.2,<4",
+  "pydantic-settings>=2.7,<3",
+  "httpx>=0.28,<1",
+  "openpyxl>=3.1.5,<4",
+  "defusedxml>=0.7,<1",
+  "cryptography>=44,<47",
+  "pgvector>=0.5.1",
+  "jieba>=0.42.1",
+]
+
+[build-system]
+requires = ["hatchling>=1.26,<2"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["commerce"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

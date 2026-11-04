@@ -1,0 +1,120 @@
+{
+  "as_of": "2026-10-16T10:00:00+08:00",
+  "period": {
+    "start": "2026-10-09",
+    "end_exclusive": "2026-10-16"
+  },
+  "by_shop": [
+    {
+      "shop_id": "a",
+      "paid_fen": 11824600,
+      "previous_paid_fen": 24931100,
+      "growth_percent": -52.57,
+      "refund_fen": 645800,
+      "net_receipts_fen": 11178800,
+      "paid_parent_orders": 153,
+      "paid_sub_orders": 306,
+      "paid_buyer_days": 153,
+      "visitor_days": 12750,
+      "buyer_day_conversion": 0.012,
+      "overdue_ship_ids": [
+        "TEST-ORDER-0010463",
+        "TEST-ORDER-0010464",
+        "TEST-ORDER-0010465",
+        "TEST-ORDER-0010466",
+        "TEST-ORDER-0010467",
+        "TEST-ORDER-0010468",
+        "TEST-ORDER-0010629",
+        "TEST-ORDER-0010630",
+        "TEST-ORDER-0010631",
+        "TEST-ORDER-0010632",
+        "TEST-ORDER-0010633",
+        "TEST-ORDER-0010634",
+        "TEST-ORDER-0010799",
+        "TEST-ORDER-0010800",
+        "TEST-ORDER-0010801",
+        "TEST-ORDER-0010802",
+        "TEST-ORDER-0010803",
+        "TEST-ORDER-0010804",
+        "TEST-ORDER-0010961",
+        "TEST-ORDER-0010962",
+        "TEST-ORDER-0010963",
+        "TEST-ORDER-0010964",
+        "TEST-ORDER-0010965",
+        "TEST-ORDER-0010966",
+        "TEST-ORDER-0011123",
+        "TEST-ORDER-0011124",
+        "TEST-ORDER-0011125",
+        "TEST-ORDER-0011126",
+        "TEST-ORDER-0011127",
+        "TEST-ORDER-0011128",
+        "TEST-ORDER-0011289",
+        "TEST-ORDER-0011290"
+      ],
+      "refund_by_reason_fen": {
+        "不喜欢": 266600,
+        "物流慢": 312300,
+        "尺码不合适": 66900
+      }
+    },
+    {
+      "shop_id": "b",
+      "paid_fen": 32506900,
+      "previous_paid_fen": 29789600,
+      "growth_percent": 9.12,
+      "refund_fen": 4012200,
+      "net_receipts_fen": 28494700,
+      "paid_parent_orders": 412,
+      "paid_sub_orders": 824,
+      "paid_buyer_days": 412,
+      "visitor_days": 11771,
+      "buyer_day_conversion": 0.03500127431823974,
+      "overdue_ship_ids": [],
+      "refund_by_reason_fen": {
+        "不喜欢": 167600,
+        "物流慢": 91800,
+        "尺码不合适": 28900,
+        "尺码偏小": 3723900
+      }
+    }
+  ],
+  "total": {
+    "paid_fen": 44331500,
+    "refund_fen": 4658000,
+    "net_receipts_fen": 39673500,
+    "paid_parent_orders": 565,
+    "paid_sub_orders": 1130,
+    "paid_buyer_days": 565,
+    "visitor_days": 24521,
+    "buyer_day_conversion": 0.02304147465437788
+  },
+  "missing_completed_views": [
+    {
+      "video_id": "TEST-VIDEO-b-29",
+      "date": "2026-10-15"
+    }
+  ],
+  "low_stock": [
+    {
+      "sku_id": "MEN-001-01-M",
+      "available_stock": 3,
+      "sold_units_7d": 75
+    },
+    {
+      "sku_id": "WOM-001-01-M",
+      "available_stock": 0,
+      "sold_units_7d": 185
+    }
+  ],
+  "viral_video": {
+    "video_id": "TEST-VIDEO-a-29",
+    "views": 1000000,
+    "product_clicks": 1000,
+    "click_rate": 0.001
+  },
+  "tasks": {
+    "completed": 32,
+    "blocked": 2,
+    "pending": 14
+  }
+}

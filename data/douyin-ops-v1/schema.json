@@ -1,0 +1,942 @@
+{
+  "shops": {
+    "grain": "one shop",
+    "fields": {
+      "shop_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "shop_name": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "platform": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "account_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "business": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "data_as_of": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "dataset_version": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "is_demo": {
+        "type": "bool",
+        "nullable": false,
+        "unit": null
+      }
+    }
+  },
+  "staff": {
+    "grain": "one synthetic staff member",
+    "fields": {
+      "staff_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "shop_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "display_name": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "role": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "dataset_version": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "is_demo": {
+        "type": "bool",
+        "nullable": false,
+        "unit": null
+      }
+    }
+  },
+  "products": {
+    "grain": "one SKU",
+    "fields": {
+      "sku_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "group_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "shop_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "title": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "category": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "price_fen": {
+        "type": "int",
+        "nullable": false,
+        "unit": "CNY fen"
+      },
+      "cost_fen": {
+        "type": "int",
+        "nullable": false,
+        "unit": "CNY fen"
+      },
+      "size": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "color": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "material": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "dataset_version": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "is_demo": {
+        "type": "bool",
+        "nullable": false,
+        "unit": null
+      }
+    }
+  },
+  "orders": {
+    "grain": "one child order, parent_order_id groups child orders",
+    "fields": {
+      "sub_order_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "parent_order_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "shop_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "buyer_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "sku_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "group_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "title": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "quantity": {
+        "type": "int",
+        "nullable": false,
+        "unit": null
+      },
+      "paid_fen": {
+        "type": "int",
+        "nullable": false,
+        "unit": "CNY fen"
+      },
+      "cost_fen": {
+        "type": "int",
+        "nullable": false,
+        "unit": "CNY fen"
+      },
+      "created_at": {
+        "type": "str",
+        "nullable": false,
+        "unit": "ISO8601 +08:00"
+      },
+      "paid_at": {
+        "type": "str",
+        "nullable": true,
+        "unit": "ISO8601 +08:00"
+      },
+      "promised_ship_at": {
+        "type": "str",
+        "nullable": true,
+        "unit": "ISO8601 +08:00"
+      },
+      "shipped_at": {
+        "type": "str",
+        "nullable": true,
+        "unit": "ISO8601 +08:00"
+      },
+      "delivered_at": {
+        "type": "str",
+        "nullable": true,
+        "unit": "ISO8601 +08:00"
+      },
+      "status": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "channel": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "video_id": {
+        "type": "str",
+        "nullable": true,
+        "unit": null
+      },
+      "refund_fen": {
+        "type": "int",
+        "nullable": false,
+        "unit": "CNY fen"
+      },
+      "updated_at": {
+        "type": "str",
+        "nullable": false,
+        "unit": "ISO8601 +08:00"
+      },
+      "dataset_version": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "is_demo": {
+        "type": "bool",
+        "nullable": false,
+        "unit": null
+      }
+    }
+  },
+  "refunds": {
+    "grain": "one refund application",
+    "fields": {
+      "refund_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "sub_order_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "shop_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "sku_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "requested_at": {
+        "type": "str",
+        "nullable": false,
+        "unit": "ISO8601 +08:00"
+      },
+      "completed_at": {
+        "type": "str",
+        "nullable": true,
+        "unit": "ISO8601 +08:00"
+      },
+      "requested_fen": {
+        "type": "int",
+        "nullable": false,
+        "unit": "CNY fen"
+      },
+      "refund_fen": {
+        "type": "int",
+        "nullable": false,
+        "unit": "CNY fen"
+      },
+      "reason": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "status": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "refund_type": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "dataset_version": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "is_demo": {
+        "type": "bool",
+        "nullable": false,
+        "unit": null
+      }
+    }
+  },
+  "daily_reports": {
+    "grain": "one shop per complete Shanghai calendar day",
+    "fields": {
+      "date": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "shop_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "visitors": {
+        "type": "int",
+        "nullable": false,
+        "unit": null
+      },
+      "paid_buyers": {
+        "type": "int",
+        "nullable": false,
+        "unit": null
+      },
+      "paid_parent_orders": {
+        "type": "int",
+        "nullable": false,
+        "unit": null
+      },
+      "paid_sub_orders": {
+        "type": "int",
+        "nullable": false,
+        "unit": null
+      },
+      "sold_units": {
+        "type": "int",
+        "nullable": false,
+        "unit": null
+      },
+      "paid_fen": {
+        "type": "int",
+        "nullable": false,
+        "unit": "CNY fen"
+      },
+      "refund_fen": {
+        "type": "int",
+        "nullable": false,
+        "unit": "CNY fen"
+      },
+      "net_receipts_fen": {
+        "type": "int",
+        "nullable": false,
+        "unit": "CNY fen"
+      },
+      "ads_spend_fen": {
+        "type": "int",
+        "nullable": false,
+        "unit": "CNY fen"
+      },
+      "source": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "extracted_at": {
+        "type": "str",
+        "nullable": false,
+        "unit": "ISO8601 +08:00"
+      },
+      "dataset_version": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "is_demo": {
+        "type": "bool",
+        "nullable": false,
+        "unit": null
+      }
+    }
+  },
+  "inventory": {
+    "grain": "one SKU at a single snapshot",
+    "fields": {
+      "shop_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "sku_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "snapshot_at": {
+        "type": "str",
+        "nullable": false,
+        "unit": "ISO8601 +08:00"
+      },
+      "available_stock": {
+        "type": "int",
+        "nullable": false,
+        "unit": null
+      },
+      "reserved_stock": {
+        "type": "int",
+        "nullable": false,
+        "unit": null
+      },
+      "inbound_stock": {
+        "type": "int",
+        "nullable": false,
+        "unit": null
+      },
+      "sold_units_7d": {
+        "type": "int",
+        "nullable": false,
+        "unit": null
+      },
+      "restock_lead_days": {
+        "type": "int",
+        "nullable": false,
+        "unit": null
+      },
+      "dataset_version": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "is_demo": {
+        "type": "bool",
+        "nullable": false,
+        "unit": null
+      }
+    }
+  },
+  "videos": {
+    "grain": "one published video",
+    "fields": {
+      "video_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "shop_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "account_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "title": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "published_at": {
+        "type": "str",
+        "nullable": false,
+        "unit": "ISO8601 +08:00"
+      },
+      "duration_seconds": {
+        "type": "int",
+        "nullable": false,
+        "unit": null
+      },
+      "group_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "source": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "dataset_version": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "is_demo": {
+        "type": "bool",
+        "nullable": false,
+        "unit": null
+      }
+    }
+  },
+  "video_daily": {
+    "grain": "one video per day, incremental metrics",
+    "fields": {
+      "date": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "shop_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "video_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "metric_grain": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "views": {
+        "type": "int",
+        "nullable": false,
+        "unit": null
+      },
+      "likes": {
+        "type": "int",
+        "nullable": false,
+        "unit": null
+      },
+      "comments": {
+        "type": "int",
+        "nullable": false,
+        "unit": null
+      },
+      "shares": {
+        "type": "int",
+        "nullable": false,
+        "unit": null
+      },
+      "follows": {
+        "type": "int",
+        "nullable": false,
+        "unit": null
+      },
+      "completed_views": {
+        "type": "int",
+        "nullable": true,
+        "unit": null
+      },
+      "product_clicks": {
+        "type": "int",
+        "nullable": false,
+        "unit": null
+      },
+      "attributed_sub_orders": {
+        "type": "int",
+        "nullable": false,
+        "unit": null
+      },
+      "attributed_paid_fen": {
+        "type": "int",
+        "nullable": false,
+        "unit": "CNY fen"
+      },
+      "extracted_at": {
+        "type": "str",
+        "nullable": false,
+        "unit": "ISO8601 +08:00"
+      },
+      "dataset_version": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "is_demo": {
+        "type": "bool",
+        "nullable": false,
+        "unit": null
+      }
+    }
+  },
+  "sop_templates": {
+    "grain": "one daily SOP template",
+    "fields": {
+      "template_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "title": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "role": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "due_hour": {
+        "type": "int",
+        "nullable": false,
+        "unit": null
+      },
+      "evidence_required": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "rule_version": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "dataset_version": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "is_demo": {
+        "type": "bool",
+        "nullable": false,
+        "unit": null
+      }
+    }
+  },
+  "tasks": {
+    "grain": "one shop/day/template task",
+    "fields": {
+      "task_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "shop_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "date": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "template_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "title": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "owner_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "due_at": {
+        "type": "str",
+        "nullable": false,
+        "unit": "ISO8601 +08:00"
+      },
+      "status": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "priority": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "evidence": {
+        "type": "str",
+        "nullable": true,
+        "unit": null
+      },
+      "completed_at": {
+        "type": "str",
+        "nullable": true,
+        "unit": "ISO8601 +08:00"
+      },
+      "version": {
+        "type": "int",
+        "nullable": false,
+        "unit": null
+      },
+      "dataset_version": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "is_demo": {
+        "type": "bool",
+        "nullable": false,
+        "unit": null
+      }
+    }
+  },
+  "issues": {
+    "grain": "one issue",
+    "fields": {
+      "issue_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "shop_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "task_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "title": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "status": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "owner_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "impact": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "resolution": {
+        "type": "null",
+        "nullable": true,
+        "unit": null
+      },
+      "created_at": {
+        "type": "str",
+        "nullable": false,
+        "unit": "ISO8601 +08:00"
+      },
+      "updated_at": {
+        "type": "str",
+        "nullable": false,
+        "unit": "ISO8601 +08:00"
+      },
+      "dataset_version": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "is_demo": {
+        "type": "bool",
+        "nullable": false,
+        "unit": null
+      }
+    }
+  },
+  "peer_references": {
+    "grain": "one synthetic competitor reference",
+    "fields": {
+      "reference_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "shop_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "account_name": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "title": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "source": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "media_path": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "is_synthetic_reference": {
+        "type": "bool",
+        "nullable": false,
+        "unit": null
+      },
+      "public_views": {
+        "type": "int",
+        "nullable": false,
+        "unit": null
+      },
+      "public_likes": {
+        "type": "int",
+        "nullable": false,
+        "unit": null
+      },
+      "backend_completion_rate": {
+        "type": "null",
+        "nullable": true,
+        "unit": null
+      },
+      "backend_paid_fen": {
+        "type": "null",
+        "nullable": true,
+        "unit": "CNY fen"
+      },
+      "transcript": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "scene_notes": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "dataset_version": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "is_demo": {
+        "type": "bool",
+        "nullable": false,
+        "unit": null
+      }
+    }
+  },
+  "assets": {
+    "grain": "one synthetic media asset",
+    "fields": {
+      "asset_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "shop_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "group_id": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "media_path": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "duration_seconds": {
+        "type": "int",
+        "nullable": false,
+        "unit": null
+      },
+      "width": {
+        "type": "int",
+        "nullable": false,
+        "unit": null
+      },
+      "height": {
+        "type": "int",
+        "nullable": false,
+        "unit": null
+      },
+      "fps": {
+        "type": "int",
+        "nullable": false,
+        "unit": null
+      },
+      "audio": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "visual": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "subtitle": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "dataset_version": {
+        "type": "str",
+        "nullable": false,
+        "unit": null
+      },
+      "is_demo": {
+        "type": "bool",
+        "nullable": false,
+        "unit": null
+      }
+    }
+  }
+}

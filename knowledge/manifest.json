@@ -1,0 +1,272 @@
+[
+  {
+    "name": "apparel-public-01-运营工作范围-v1",
+    "title": "运营工作范围",
+    "scope": "public",
+    "version": "v2",
+    "dataset_id": "77e1a0b2-8f82-47a5-b6cd-53b5614177a7",
+    "document_id": "c14420f7-bc9f-4353-90d3-5694414b0a8a",
+    "file": "knowledge/public/01.md"
+  },
+  {
+    "name": "apparel-public-02-售后数据复核-v1",
+    "title": "售后数据复核",
+    "scope": "public",
+    "version": "v2",
+    "dataset_id": "77e1a0b2-8f82-47a5-b6cd-53b5614177a7",
+    "document_id": "3641bae6-1e38-4d5b-bff9-76b69279b409",
+    "file": "knowledge/public/02.md"
+  },
+  {
+    "name": "apparel-public-03-运营内容与执行-v1",
+    "title": "运营内容与执行",
+    "scope": "public",
+    "version": "v2",
+    "dataset_id": "77e1a0b2-8f82-47a5-b6cd-53b5614177a7",
+    "document_id": "21d6e106-edf3-4e8f-bbef-5c2e3f5a5055",
+    "file": "knowledge/public/03.md"
+  },
+  {
+    "name": "apparel-public-04-店铺订单与物流-v1",
+    "title": "店铺订单与物流",
+    "scope": "public",
+    "version": "v2",
+    "dataset_id": "77e1a0b2-8f82-47a5-b6cd-53b5614177a7",
+    "document_id": "fd5e91a2-d21a-45a2-88c7-f0a1413fa064",
+    "file": "knowledge/public/04.md"
+  },
+  {
+    "name": "apparel-public-05-订单金额-v1",
+    "title": "订单金额",
+    "scope": "public",
+    "version": "v2",
+    "dataset_id": "77e1a0b2-8f82-47a5-b6cd-53b5614177a7",
+    "document_id": "51358a8d-f622-482d-b57d-c4114d0013b1",
+    "file": "knowledge/public/05.md"
+  },
+  {
+    "name": "apparel-public-06-服装选购条件-v1",
+    "title": "服装选购条件",
+    "scope": "public",
+    "version": "v2",
+    "dataset_id": "77e1a0b2-8f82-47a5-b6cd-53b5614177a7",
+    "document_id": "a1bcd6d9-7849-422c-8cb4-f3f52935266b",
+    "file": "knowledge/public/06.md"
+  },
+  {
+    "name": "apparel-public-07-成衣尺寸与人体尺寸-v1",
+    "title": "成衣尺寸与人体尺寸",
+    "scope": "public",
+    "version": "v2",
+    "dataset_id": "77e1a0b2-8f82-47a5-b6cd-53b5614177a7",
+    "document_id": "8242ebb2-221c-405c-b22b-3a4cba97c3ec",
+    "file": "knowledge/public/07.md"
+  },
+  {
+    "name": "apparel-public-08-尺码选择方法-v1",
+    "title": "尺码选择方法",
+    "scope": "public",
+    "version": "v2",
+    "dataset_id": "77e1a0b2-8f82-47a5-b6cd-53b5614177a7",
+    "document_id": "d335cd37-3151-462f-bdb6-fe15853b8926",
+    "file": "knowledge/public/08.md"
+  },
+  {
+    "name": "apparel-public-09-男装版型与搭配-v1",
+    "title": "男装版型与搭配",
+    "scope": "public",
+    "version": "v2",
+    "dataset_id": "77e1a0b2-8f82-47a5-b6cd-53b5614177a7",
+    "document_id": "3aabc094-304f-4647-beae-ac2540b7042e",
+    "file": "knowledge/public/09.md"
+  },
+  {
+    "name": "apparel-public-10-女装版型与搭配-v1",
+    "title": "女装版型与搭配",
+    "scope": "public",
+    "version": "v2",
+    "dataset_id": "77e1a0b2-8f82-47a5-b6cd-53b5614177a7",
+    "document_id": "ef9217fc-ffdf-4b99-b2e9-a73f3ab05fc4",
+    "file": "knowledge/public/10.md"
+  },
+  {
+    "name": "apparel-public-11-服装面料成分-v1",
+    "title": "服装面料成分",
+    "scope": "public",
+    "version": "v2",
+    "dataset_id": "77e1a0b2-8f82-47a5-b6cd-53b5614177a7",
+    "document_id": "236f4d8d-06ed-4b7e-ab97-ac2e465e348d",
+    "file": "knowledge/public/11.md"
+  },
+  {
+    "name": "apparel-public-12-服装颜色与色差-v1",
+    "title": "服装颜色与色差",
+    "scope": "public",
+    "version": "v2",
+    "dataset_id": "77e1a0b2-8f82-47a5-b6cd-53b5614177a7",
+    "document_id": "66e90b1b-ef9b-42c1-8789-dc963ecd8e2c",
+    "file": "knowledge/public/12.md"
+  },
+  {
+    "name": "apparel-public-13-服装季节与场景-v1",
+    "title": "服装季节与场景",
+    "scope": "public",
+    "version": "v2",
+    "dataset_id": "77e1a0b2-8f82-47a5-b6cd-53b5614177a7",
+    "document_id": "67cc8f14-4791-4335-af43-8f53e215b9d8",
+    "file": "knowledge/public/13.md"
+  },
+  {
+    "name": "apparel-public-14-服装洗护资料-v1",
+    "title": "服装洗护资料",
+    "scope": "public",
+    "version": "v2",
+    "dataset_id": "77e1a0b2-8f82-47a5-b6cd-53b5614177a7",
+    "document_id": "c289c390-4a6e-4aa1-9431-b4787b7fa7da",
+    "file": "knowledge/public/14.md"
+  },
+  {
+    "name": "apparel-public-15-尺码与颜色库存-v1",
+    "title": "尺码与颜色库存",
+    "scope": "public",
+    "version": "v2",
+    "dataset_id": "77e1a0b2-8f82-47a5-b6cd-53b5614177a7",
+    "document_id": "b50aa8a2-a4b6-4703-9ae7-aef7950803aa",
+    "file": "knowledge/public/15.md"
+  },
+  {
+    "name": "apparel-public-16-商品库存-v1",
+    "title": "商品库存",
+    "scope": "public",
+    "version": "v2",
+    "dataset_id": "77e1a0b2-8f82-47a5-b6cd-53b5614177a7",
+    "document_id": "582837cb-8000-40fd-ad2f-ce93b5b2e663",
+    "file": "knowledge/public/16.md"
+  },
+  {
+    "name": "apparel-public-17-商品价格-v1",
+    "title": "商品价格",
+    "scope": "public",
+    "version": "v2",
+    "dataset_id": "77e1a0b2-8f82-47a5-b6cd-53b5614177a7",
+    "document_id": "3fed0ba6-2d25-4087-82d0-5c00229c4649",
+    "file": "knowledge/public/17.md"
+  },
+  {
+    "name": "apparel-public-18-商品对比-v1",
+    "title": "商品对比",
+    "scope": "public",
+    "version": "v2",
+    "dataset_id": "77e1a0b2-8f82-47a5-b6cd-53b5614177a7",
+    "document_id": "2537343e-34bc-4bd0-87de-cd650515085e",
+    "file": "knowledge/public/18.md"
+  },
+  {
+    "name": "apparel-public-19-资料不完整时如何推荐-v1",
+    "title": "资料不完整时如何推荐",
+    "scope": "public",
+    "version": "v2",
+    "dataset_id": "77e1a0b2-8f82-47a5-b6cd-53b5614177a7",
+    "document_id": "e0998568-a702-448a-a60d-d534058a686d",
+    "file": "knowledge/public/19.md"
+  },
+  {
+    "name": "apparel-public-20-演示数据说明-v1",
+    "title": "演示数据说明",
+    "scope": "public",
+    "version": "v2",
+    "dataset_id": "77e1a0b2-8f82-47a5-b6cd-53b5614177a7",
+    "document_id": "d9a6cd30-46bd-4143-b0f1-f9ac1790229c",
+    "file": "knowledge/public/20.md"
+  },
+  {
+    "name": "apparel-internal-01-品牌文案语气-v1",
+    "title": "品牌文案语气",
+    "scope": "internal",
+    "version": "v2",
+    "dataset_id": "07582a66-7333-47da-9548-45cd7d5485df",
+    "document_id": "909a7e19-ea54-40ea-94bd-eadc235117f9",
+    "file": "knowledge/internal/01.md"
+  },
+  {
+    "name": "apparel-internal-02-商品事实与内容依据-v1",
+    "title": "商品事实与内容依据",
+    "scope": "internal",
+    "version": "v2",
+    "dataset_id": "07582a66-7333-47da-9548-45cd7d5485df",
+    "document_id": "52c54df2-e7e0-4248-8cc1-8ffff8f3f765",
+    "file": "knowledge/internal/02.md"
+  },
+  {
+    "name": "apparel-internal-03-草稿与执行边界-v1",
+    "title": "草稿与执行边界",
+    "scope": "internal",
+    "version": "v2",
+    "dataset_id": "07582a66-7333-47da-9548-45cd7d5485df",
+    "document_id": "27dbf981-f406-4a5a-ae06-09e609547c2f",
+    "file": "knowledge/internal/03.md"
+  },
+  {
+    "name": "apparel-internal-04-营销活动依据-v1",
+    "title": "营销活动依据",
+    "scope": "internal",
+    "version": "v2",
+    "dataset_id": "07582a66-7333-47da-9548-45cd7d5485df",
+    "document_id": "518f900a-cad7-465a-8a64-1f49ee9c6d9b",
+    "file": "knowledge/internal/04.md"
+  },
+  {
+    "name": "apparel-internal-05-支付成交额口径-v1",
+    "title": "支付成交额口径",
+    "scope": "internal",
+    "version": "v2",
+    "dataset_id": "07582a66-7333-47da-9548-45cd7d5485df",
+    "document_id": "e3185de7-88af-4e8c-8745-5350c245b7b0",
+    "file": "knowledge/internal/05.md"
+  },
+  {
+    "name": "apparel-internal-06-退款与净收款口径-v1",
+    "title": "退款与净收款口径",
+    "scope": "internal",
+    "version": "v2",
+    "dataset_id": "07582a66-7333-47da-9548-45cd7d5485df",
+    "document_id": "7bb73a0c-9694-4d66-94b1-adcf0d73fd7f",
+    "file": "knowledge/internal/06.md"
+  },
+  {
+    "name": "apparel-internal-07-时间窗口与环比-v1",
+    "title": "时间窗口与环比",
+    "scope": "internal",
+    "version": "v2",
+    "dataset_id": "07582a66-7333-47da-9548-45cd7d5485df",
+    "document_id": "c7972d5f-120b-4d81-a3f1-6253a6279445",
+    "file": "knowledge/internal/07.md"
+  },
+  {
+    "name": "apparel-internal-08-选品评分方法-v1",
+    "title": "选品评分方法",
+    "scope": "internal",
+    "version": "v2",
+    "dataset_id": "07582a66-7333-47da-9548-45cd7d5485df",
+    "document_id": "5b6978bb-4414-479a-924e-c93388a5cc07",
+    "file": "knowledge/internal/08.md"
+  },
+  {
+    "name": "apparel-internal-09-竞品可比性-v1",
+    "title": "竞品可比性",
+    "scope": "internal",
+    "version": "v2",
+    "dataset_id": "07582a66-7333-47da-9548-45cd7d5485df",
+    "document_id": "ba88707c-60ff-45b7-a681-640a92a52d76",
+    "file": "knowledge/internal/09.md"
+  },
+  {
+    "name": "apparel-internal-10-经营诊断的证据-v1",
+    "title": "经营诊断的证据",
+    "scope": "internal",
+    "version": "v2",
+    "dataset_id": "07582a66-7333-47da-9548-45cd7d5485df",
+    "document_id": "a962b0e8-b0dd-44da-b6e5-f3090966a118",
+    "file": "knowledge/internal/10.md"
+  }
+]

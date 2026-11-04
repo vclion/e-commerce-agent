@@ -1,0 +1,164 @@
+[
+  {
+    "case_id": "S01",
+    "name": "全店汇总",
+    "prompt": "分析最近7个完整自然日所有店铺的成交、退款和净收款。",
+    "expected_behavior": "引用 total 与 by_shop；净收款不是利润；区分父订单与子订单。",
+    "evidence": "expected_results.json:total",
+    "status": "not_run",
+    "actual_result": null
+  },
+  {
+    "case_id": "S02",
+    "name": "成交下降",
+    "prompt": "山序男装最近7天发生了什么变化？今天优先做什么？",
+    "expected_behavior": "发现成交下降与买家日转化下降，提出待验证原因并创建有负责人及期限的任务。",
+    "evidence": "expected_results.json:by_shop[0]",
+    "status": "not_run",
+    "actual_result": null
+  },
+  {
+    "case_id": "S03",
+    "name": "售后异常",
+    "prompt": "知织女装退款主要是什么问题？",
+    "expected_behavior": "按退款完成日分析尺码相关退款；不把期间退款额除以支付额称为订单退款率。",
+    "evidence": "expected_results.json:by_shop[1].refund_by_reason_fen",
+    "status": "not_run",
+    "actual_result": null
+  },
+  {
+    "case_id": "S04",
+    "name": "低库存",
+    "prompt": "找出需要核查补货的主推商品。",
+    "expected_behavior": "识别两店主推 SKU，依据快照和近7日销量核查补货；不相加每日库存。",
+    "evidence": "expected_results.json:low_stock",
+    "status": "not_run",
+    "actual_result": null
+  },
+  {
+    "case_id": "S05",
+    "name": "发货超时",
+    "prompt": "列出已超过承诺时间但未发货的订单。",
+    "expected_behavior": "以固定 as_of 和 promised_ship_at 比较，排除取消和全额退款订单。48小时是测试假设。",
+    "evidence": "expected_results.json:by_shop[0].overdue_ship_ids",
+    "status": "not_run",
+    "actual_result": null
+  },
+  {
+    "case_id": "S06",
+    "name": "高播放低点击",
+    "prompt": "哪个视频播放很高但商品点击表现弱？",
+    "expected_behavior": "识别 TEST-VIDEO-a-29，计算点击率，不声称播放量就是访客或成交人数。",
+    "evidence": "expected_results.json:viral_video",
+    "status": "not_run",
+    "actual_result": null
+  },
+  {
+    "case_id": "S07",
+    "name": "缺失指标",
+    "prompt": "分析最后一条女装视频的完播率。",
+    "expected_behavior": "明确 completed_views 缺失，不能补零或推断完播率。",
+    "evidence": "expected_results.json:missing_completed_views",
+    "status": "not_run",
+    "actual_result": null
+  },
+  {
+    "case_id": "S08",
+    "name": "同行拆解",
+    "prompt": "拆解 TEST-PEER-a-0，给本店写一版脚本。",
+    "expected_behavior": "引用实际提供的转写与占位视频；同行后台完播和成交未知；不编造效果。",
+    "evidence": "peer_references.jsonl",
+    "status": "not_run",
+    "actual_result": null
+  },
+  {
+    "case_id": "S09",
+    "name": "自动剪辑",
+    "prompt": "按 TEST-SCRIPT-a 生成竖屏成片。",
+    "expected_behavior": "输出可播放12秒成片、三段素材和可读字幕。素材为占位动画，不是实际商品影像。",
+    "evidence": "edit_jobs.json",
+    "status": "not_run",
+    "actual_result": null
+  },
+  {
+    "case_id": "S10",
+    "name": "素材缺失",
+    "prompt": "执行 TEST-EDIT-a-missing。",
+    "expected_behavior": "缺少素材时任务失败并列出缺失项，不能把正常素材目录中的同名文件自动作为本用例的可用资产。",
+    "evidence": "edge_cases/missing_asset_job.json",
+    "status": "not_run",
+    "actual_result": null
+  },
+  {
+    "case_id": "S11",
+    "name": "每日SOP",
+    "prompt": "生成今天的工作，汇总昨日遗留问题。",
+    "expected_behavior": "两店各8项任务；重复生成不覆盖进度、不重复创建；两条补货问题保持未关闭。",
+    "evidence": "tasks.jsonl; issues.jsonl",
+    "status": "not_run",
+    "actual_result": null
+  },
+  {
+    "case_id": "S12",
+    "name": "权限隔离",
+    "prompt": "仅授权山序男装，查询知织女装的订单和报告。",
+    "expected_behavior": "服务端拒绝；这需要接入后的集成测试，数据文件不能证明权限已实现。",
+    "evidence": "edge_cases/actors.json",
+    "status": "not_run",
+    "actual_result": null
+  },
+  {
+    "case_id": "S13",
+    "name": "重复导入",
+    "prompt": "把同一份订单文件导入两次。",
+    "expected_behavior": "第二次不增加订单与成交金额；状态更新按子订单标识更新。",
+    "evidence": "edge_cases/duplicate_orders.csv",
+    "status": "not_run",
+    "actual_result": null
+  },
+  {
+    "case_id": "S14",
+    "name": "坏数据",
+    "prompt": "导入带非法金额、日期和店铺归属的文件。",
+    "expected_behavior": "逐行报错，不污染有效数据；相同主键的冲突行不能按新订单累计。",
+    "evidence": "edge_cases/invalid_orders.json",
+    "status": "not_run",
+    "actual_result": null
+  },
+  {
+    "case_id": "S15",
+    "name": "报表过期",
+    "prompt": "用缺少昨天女装数据的文件生成今日晨报。",
+    "expected_behavior": "提示女装缺失最新完整自然日，生成补数任务，不报告成正常零成交。",
+    "evidence": "edge_cases/stale_daily_reports.csv",
+    "status": "not_run",
+    "actual_result": null
+  },
+  {
+    "case_id": "S16",
+    "name": "累计快照",
+    "prompt": "合并两次采集的视频数据，计算最终播放量。",
+    "expected_behavior": "第二次累计播放为1500，不是1000+1500；增量500。",
+    "evidence": "edge_cases/cumulative_video_snapshots.json",
+    "status": "not_run",
+    "actual_result": null
+  },
+  {
+    "case_id": "S17",
+    "name": "退款边界",
+    "prompt": "比较最近7天支付与退款，核对净收款。",
+    "expected_behavior": "按各自事件时间统计，识别跨期退款与部分退款；不将待处理申请算已退款。",
+    "evidence": "orders.jsonl; refunds.jsonl",
+    "status": "not_run",
+    "actual_result": null
+  },
+  {
+    "case_id": "S18",
+    "name": "复盘",
+    "prompt": "生成日报，说明哪些工作完成、哪些阻塞、明天跟进什么。",
+    "expected_behavior": "引用任务状态与证据；两条问题仍打开，不能因生成日报自动关闭。",
+    "evidence": "expected_results.json:tasks",
+    "status": "not_run",
+    "actual_result": null
+  }
+]

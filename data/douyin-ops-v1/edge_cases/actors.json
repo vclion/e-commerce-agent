@@ -1,0 +1,19 @@
+[
+  {
+    "actor_id": "TEST-ACTOR-A-ONLY",
+    "allowed_shop_ids": [
+      "a"
+    ],
+    "denied_shop_ids": [
+      "b"
+    ]
+  },
+  {
+    "actor_id": "TEST-ACTOR-ALL",
+    "allowed_shop_ids": [
+      "a",
+      "b"
+    ],
+    "denied_shop_ids": []
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "job_id": "TEST-EDIT-a-missing",
+  "shop_id": "a",
+  "script_id": "TEST-SCRIPT-a",
+  "missing_assets": [
+    "TEST-ASSET-a-1"
+  ],
+  "expected_status": "failed",
+  "expected_duration_seconds": null,
+  "available_asset_ids": [
+    "TEST-ASSET-a-0",
+    "TEST-ASSET-a-2"
+  ]
+}

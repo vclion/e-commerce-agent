@@ -1,0 +1,6 @@
+{"staff_id": "TEST-STAFF-a-operator", "shop_id": "a", "display_name": "店铺运营（测试）", "role": "operator", "dataset_version": "douyin-ops-v1", "is_demo": true}
+{"staff_id": "TEST-STAFF-a-content", "shop_id": "a", "display_name": "内容运营（测试）", "role": "content", "dataset_version": "douyin-ops-v1", "is_demo": true}
+{"staff_id": "TEST-STAFF-a-service", "shop_id": "a", "display_name": "售后专员（测试）", "role": "service", "dataset_version": "douyin-ops-v1", "is_demo": true}
+{"staff_id": "TEST-STAFF-b-operator", "shop_id": "b", "display_name": "店铺运营（测试）", "role": "operator", "dataset_version": "douyin-ops-v1", "is_demo": true}
+{"staff_id": "TEST-STAFF-b-content", "shop_id": "b", "display_name": "内容运营（测试）", "role": "content", "dataset_version": "douyin-ops-v1", "is_demo": true}
+{"staff_id": "TEST-STAFF-b-service", "shop_id": "b", "display_name": "售后专员（测试）", "role": "service", "dataset_version": "douyin-ops-v1", "is_demo": true}

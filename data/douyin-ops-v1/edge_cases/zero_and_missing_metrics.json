@@ -1,0 +1,23 @@
+[
+  {
+    "case_id": "zero",
+    "visitors": 0,
+    "paid_buyers": 0,
+    "expected_conversion": null,
+    "expected_note": "分母为零，转化率不适用"
+  },
+  {
+    "case_id": "missing",
+    "visitors": null,
+    "paid_buyers": 0,
+    "expected_conversion": null,
+    "expected_note": "缺失访客数据，不能补零"
+  },
+  {
+    "case_id": "zero_buyers",
+    "visitors": 100,
+    "paid_buyers": 0,
+    "expected_conversion": 0,
+    "expected_note": "真实零转化"
+  }
+]

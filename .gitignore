@@ -1,0 +1,67 @@
+.venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+.pytest_cache/
+*.pyc
+node_modules/
+frontend/dist/
+backend/dist/
+*.egg-info/
+.runtime/
+vendor/
+*.db
+tests/artifacts/
+
+# Local tool caches and reproducible distribution archives
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local logs, credentials, private keys and database snapshots
+*.log
+*.log.*
+*.inspect.ndjson
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+*.db-*
+*.dump
+*.sql.gz
+*.sql.bz2
+*.sql.xz
+*.bak
+*.backup
+*.orig
+*.rej
+.envrc
+.secrets/
+.ssh/
+credentials.json
+service-account*.json
+
+# Local exports and imported private data (keep bundled synthetic fixtures)
+/backups/
+/exports/
+/uploads/
+/data/private/
+/data/imports/
+
+# Per-installation Dify workspace mappings; regenerated during setup
+/dify/apps.lock.json
+/dify/knowledge.lock.json
+
+# Editor and operating-system metadata
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "checks": [
+    "unique sub-order IDs",
+    "parent order shares shop, buyer and payment time",
+    "800 apparel SKUs",
+    "SKU/order shop ownership",
+    "refunds bounded by payments",
+    "cancelled orders excluded from paid amounts",
+    "chronological order events, no future actual events",
+    "refund detail/order reconciliation",
+    "unique 60-day reports per shop",
+    "120 daily reports reconcile payments, parent orders, refunds and net receipts",
+    "video/order attribution reconciliation",
+    "attribution occurs after publication",
+    "video funnel bounds",
+    "scenario: A recent GMV decline",
+    "scenario: B size-related refunds",
+    "scenario: low-stock hero SKUs",
+    "scenario: overdue unshipped orders",
+    "scenario: viral video has 0.1% click rate",
+    "scenario: null completion is distinct from zero",
+    "no fabricated peer private metrics",
+    "issues link to same-shop blocked tasks",
+    "daily SOP uniqueness",
+    "8 current-day tasks per shop",
+    "completed tasks include evidence and timestamps"
+  ],
+  "automated_agent_evaluation": "not_run"
+}

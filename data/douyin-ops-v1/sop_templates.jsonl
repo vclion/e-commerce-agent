@@ -1,0 +1,8 @@
+{"template_id": "SOP-01", "title": "导入并核对昨日经营报表", "role": "operator", "due_hour": 10, "evidence_required": "报表批次及覆盖日期", "rule_version": "test-v1", "dataset_version": "douyin-ops-v1", "is_demo": true}
+{"template_id": "SOP-02", "title": "检查成交变化并记录待验证原因", "role": "operator", "due_hour": 11, "evidence_required": "同口径上期对比", "rule_version": "test-v1", "dataset_version": "douyin-ops-v1", "is_demo": true}
+{"template_id": "SOP-03", "title": "核查低库存与补货计划", "role": "operator", "due_hour": 12, "evidence_required": "库存快照与近7日销量", "rule_version": "test-v1", "dataset_version": "douyin-ops-v1", "is_demo": true}
+{"template_id": "SOP-04", "title": "处理临近时限和已超时待发货单", "role": "service", "due_hour": 12, "evidence_required": "订单列表及承诺时间", "rule_version": "test-v1", "dataset_version": "douyin-ops-v1", "is_demo": true}
+{"template_id": "SOP-05", "title": "复核退款原因与待处理售后", "role": "service", "due_hour": 15, "evidence_required": "售后明细与处理记录", "rule_version": "test-v1", "dataset_version": "douyin-ops-v1", "is_demo": true}
+{"template_id": "SOP-06", "title": "拆解同行参考并完成当日脚本", "role": "content", "due_hour": 15, "evidence_required": "参考资料与脚本版本", "rule_version": "test-v1", "dataset_version": "douyin-ops-v1", "is_demo": true}
+{"template_id": "SOP-07", "title": "检查视频素材并完成剪辑预览", "role": "content", "due_hour": 17, "evidence_required": "素材清单与可播放成片", "rule_version": "test-v1", "dataset_version": "douyin-ops-v1", "is_demo": true}
+{"template_id": "SOP-08", "title": "回填今日任务并生成运营日报", "role": "operator", "due_hour": 18, "evidence_required": "完成项、问题、次日安排", "rule_version": "test-v1", "dataset_version": "douyin-ops-v1", "is_demo": true}

@@ -1,0 +1,9 @@
+﻿template_id,title,role,due_hour,evidence_required,rule_version,dataset_version,is_demo
+SOP-01,导入并核对昨日经营报表,operator,10,报表批次及覆盖日期,test-v1,douyin-ops-v1,True
+SOP-02,检查成交变化并记录待验证原因,operator,11,同口径上期对比,test-v1,douyin-ops-v1,True
+SOP-03,核查低库存与补货计划,operator,12,库存快照与近7日销量,test-v1,douyin-ops-v1,True
+SOP-04,处理临近时限和已超时待发货单,service,12,订单列表及承诺时间,test-v1,douyin-ops-v1,True
+SOP-05,复核退款原因与待处理售后,service,15,售后明细与处理记录,test-v1,douyin-ops-v1,True
+SOP-06,拆解同行参考并完成当日脚本,content,15,参考资料与脚本版本,test-v1,douyin-ops-v1,True
+SOP-07,检查视频素材并完成剪辑预览,content,17,素材清单与可播放成片,test-v1,douyin-ops-v1,True
+SOP-08,回填今日任务并生成运营日报,operator,18,完成项、问题、次日安排,test-v1,douyin-ops-v1,True

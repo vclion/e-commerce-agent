@@ -1,0 +1,98 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Operations Agent read tools",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "http://host.docker.internal:8000"
+    }
+  ],
+  "paths": {
+    "/tools/read": {
+      "post": {
+        "operationId": "commerce_read",
+        "summary": "读取已授权的商品、指标、选品和竞品数据，不能写入业务记录。",
+        "parameters": [
+          {
+            "name": "X-Context-Ref",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "由服务端固定绑定的用户上下文，不允许模型填写。"
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "operation": {
+                    "type": "string",
+                    "enum": [
+                      "after_sales",
+                      "analytics",
+                      "audit_events",
+                      "chat_run_records",
+                      "clarify",
+                      "compare",
+                      "competitors",
+                      "content_list",
+                      "history_read",
+                      "knowledge",
+                      "memory_get",
+                      "memory_search",
+                      "ops_assets",
+                      "ops_import_batch",
+                      "ops_import_fields",
+                      "ops_import_inspect",
+                      "ops_import_mappings",
+                      "ops_imports",
+                      "ops_jobs",
+                      "ops_overview",
+                      "ops_peer_context",
+                      "ops_peers",
+                      "ops_report",
+                      "ops_schedules",
+                      "ops_script_context",
+                      "ops_scripts",
+                      "ops_tasks",
+                      "ops_videos",
+                      "orders",
+                      "platform_connections",
+                      "platform_products",
+                      "platform_syncs",
+                      "product_detail",
+                      "products",
+                      "selection",
+                      "workspace_context"
+                    ]
+                  },
+                  "arguments": {
+                    "type": "object",
+                    "description": "JSON参数对象；workspace_context:{}；查询当前栏目、可用操作和页面表单入口\nops_schedules:{}\nops_assets:{}；查询素材和运营商品\nops_imports:{}；查询当前范围内本人上传或校验的批次ID\nops_import_batch:{batch_id}；查询校验错误与前5行预览\nops_import_fields:{kind}；字段契约及示例\nops_import_mappings:{}\nops_import_inspect:{kind,filename,text,sheet?,mapping?}；检查用户提供的文本报表；Excel/大文件使用页面上传表单\ncontent_list:{}；本人营销文案与经营报告\nplatform_connections:{}；仅配置状态、缺失项和同步信息，不返回凭据\nplatform_products:{connection_id}；查看该连接的已同步商品和可补录字段\nplatform_syncs:{connection_id}\naudit_events:{}；本人当前店铺范围业务与工具审计\nchat_run_records:{workspace?:栏目ID,status?:running或succeeded或failed或interrupted}；查询运行状态摘要。运行记录栏目可按指定栏目查看摘要，不自动读取其他栏目正文\n原商品和经营读取参数保持不变；ops_overview:{days?};ops_tasks/ops_report:{date?};knowledge:{query,scope?}\nmemory_search:{query};memory_get:{id};history_read:{index_id?,run_id?,query?,field?:user或assistant或effects,offset?,length?,after_turn?,limit?:最多5}；按索引定位原文，query也搜索冷索引与未建索引历史；仅当前会话，返回分页",
+                    "additionalProperties": true
+                  }
+                },
+                "required": [
+                  "operation",
+                  "arguments"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Authorized data"
+          }
+        }
+      }
+    }
+  }
+}

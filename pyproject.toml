@@ -1,0 +1,21 @@
+[project]
+name = "commerce-copilot"
+version = "0.1.0"
+description = "Dify-powered commerce workbench"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "commerce-copilot-backend",
+  "pyyaml>=6,<7",
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "playwright>=1.50,<2"]
+
+[tool.pytest.ini_options]
+testpaths = ["backend/tests", "tests/unit"]
+
+[tool.uv.workspace]
+members = ["backend"]
+
+[tool.uv.sources]
+commerce-copilot-backend = { workspace = true }

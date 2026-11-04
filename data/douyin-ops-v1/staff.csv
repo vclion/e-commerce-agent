@@ -1,0 +1,7 @@
+﻿staff_id,shop_id,display_name,role,dataset_version,is_demo
+TEST-STAFF-a-operator,a,店铺运营（测试）,operator,douyin-ops-v1,True
+TEST-STAFF-a-content,a,内容运营（测试）,content,douyin-ops-v1,True
+TEST-STAFF-a-service,a,售后专员（测试）,service,douyin-ops-v1,True
+TEST-STAFF-b-operator,b,店铺运营（测试）,operator,douyin-ops-v1,True
+TEST-STAFF-b-content,b,内容运营（测试）,content,douyin-ops-v1,True
+TEST-STAFF-b-service,b,售后专员（测试）,service,douyin-ops-v1,True

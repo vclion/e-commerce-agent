@@ -1,0 +1,2 @@
+{"shop_id": "a", "shop_name": "山序男装", "platform": "douyin_shop", "account_id": "TEST-ACCOUNT-A", "business": "商品销售与快递发货", "data_as_of": "2026-10-16T10:00:00+08:00", "dataset_version": "douyin-ops-v1", "is_demo": true}
+{"shop_id": "b", "shop_name": "知织女装", "platform": "douyin_shop", "account_id": "TEST-ACCOUNT-B", "business": "商品销售与快递发货", "data_as_of": "2026-10-16T10:00:00+08:00", "dataset_version": "douyin-ops-v1", "is_demo": true}

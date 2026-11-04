@@ -1,0 +1,38 @@
+[
+  {
+    "job_id": "TEST-EDIT-a-valid",
+    "shop_id": "a",
+    "script_id": "TEST-SCRIPT-a",
+    "missing_assets": [],
+    "expected_status": "succeeded",
+    "expected_duration_seconds": 12
+  },
+  {
+    "job_id": "TEST-EDIT-a-missing",
+    "shop_id": "a",
+    "script_id": "TEST-SCRIPT-a",
+    "missing_assets": [
+      "TEST-ASSET-a-1"
+    ],
+    "expected_status": "failed",
+    "expected_duration_seconds": null
+  },
+  {
+    "job_id": "TEST-EDIT-b-valid",
+    "shop_id": "b",
+    "script_id": "TEST-SCRIPT-b",
+    "missing_assets": [],
+    "expected_status": "succeeded",
+    "expected_duration_seconds": 12
+  },
+  {
+    "job_id": "TEST-EDIT-b-missing",
+    "shop_id": "b",
+    "script_id": "TEST-SCRIPT-b",
+    "missing_assets": [
+      "TEST-ASSET-b-1"
+    ],
+    "expected_status": "failed",
+    "expected_duration_seconds": null
+  }
+]

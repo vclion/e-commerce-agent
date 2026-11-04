@@ -1,0 +1,57 @@
+{
+  "version": "apparel-v1",
+  "seed": 20261016,
+  "anchor": "2026-10-14T16:00:00+00:00",
+  "shops": 2,
+  "shop_profiles": {
+    "a": {
+      "name": "山序男装",
+      "gender": "男装",
+      "tagline": "城市有序，山野有风。",
+      "positioning": "都市通勤 · 户外休闲",
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ]
+    },
+    "b": {
+      "name": "知织女装",
+      "gender": "女装",
+      "tagline": "把日常，穿成自己的风景。",
+      "positioning": "简约通勤 · 轻法式",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    }
+  },
+  "spus": 80,
+  "skus": 800,
+  "orders": 5521,
+  "competitors": 2400,
+  "refund_orders_by_shop": {
+    "a": 157,
+    "b": 428
+  },
+  "is_demo": true,
+  "provenance": "商品、尺码、经营事件及竞品均为本项目原创合成数据；没有采集真实店铺记录。",
+  "reference": "https://github.com/cvdfoundation/fashionpedia",
+  "quality_and_supply": "合成聚合观察，非真实经营记录；库存为当前快照，不用于推导历史流水",
+  "export_counts": {
+    "products": 800,
+    "orders": 5521,
+    "competitors": 2400
+  },
+  "files": [
+    "styles.json",
+    "products.jsonl",
+    "orders.jsonl",
+    "competitors.jsonl"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Authorized operations actions",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "http://host.docker.internal:8000"
+    }
+  ],
+  "paths": {
+    "/tools/execute": {
+      "post": {
+        "operationId": "commerce_action",
+        "summary": "执行授权店铺的本地SOP、任务、脚本和剪辑；不调用外部交易或发布。",
+        "parameters": [
+          {
+            "name": "X-Context-Ref",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "由服务端固定绑定的用户上下文，不允许模型填写。"
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "operation": {
+                    "type": "string",
+                    "enum": [
+                      "competitors_import",
+                      "content_save",
+                      "memory_forget",
+                      "memory_propose",
+                      "ops_demo_import",
+                      "ops_import_commit",
+                      "ops_import_mapping_save",
+                      "ops_import_preview",
+                      "ops_peer_analyze",
+                      "ops_peer_create",
+                      "ops_render",
+                      "ops_render_retry",
+                      "ops_schedule_set",
+                      "ops_script_generate",
+                      "ops_script_review",
+                      "ops_script_rewrite",
+                      "ops_script_save",
+                      "ops_sop_generate",
+                      "ops_task_update",
+                      "platform_connect",
+                      "platform_disconnect",
+                      "platform_product_facts_set",
+                      "platform_schedule_set",
+                      "platform_sync"
+                    ]
+                  },
+                  "arguments": {
+                    "type": "object",
+                    "description": "JSON参数对象；ops_schedule_set:{shop_id,enabled:bool,hour?:0到23}\nops_peer_create:{shop_id,title,transcript,source?,asset_id?}\nops_peer_analyze:{reference_id}；调用现有完整同行分析流程并保存结果\nops_script_generate:{product_id,reference_id?,brief?}；生成并保存可剪辑脚本\nops_script_review:{script_id,expected_version}；事实检查\nops_script_rewrite:{script_id,expected_version}；返回改写候选及差异，尚未保存；用户要求采用后用ops_script_save保存，保持锁定段\nops_render_retry:{job_id}；仅重试已失败剪辑任务\nops_import_preview:{kind,filename,text,sheet?,mapping?}；校验并生成批次，尚未入库\nops_import_commit:{batch_id}；用户要求导入后提交已校验批次，错误批次不入库\nops_import_mapping_save:{name,kind,mapping}；复用页面字段映射结构\nops_demo_import:{}；仅在用户明确要求加载合成测试数据时执行，正式店铺禁止\ncontent_save:{kind:marketing或report,title,content,source_ids?:[]}；保存为草稿\ncompetitors_import:{items:[{product_id,title,price_fen,specs,source,captured_at:带时区时间,currency?:CNY}]}；保存用户提供的竞品快照，不访问外部网址\nplatform_connect:{connection_id}；检查已配置连接，不接收凭据\nplatform_sync:{connection_id,days?:1到90,resources?:[]}；排队同步，完成状态需查询platform_syncs\nplatform_schedule_set:{connection_id,enabled:bool,interval_minutes?:15到1440}\nplatform_disconnect:{connection_id}；用户明确要求时断开连接并停止后续同步\nplatform_product_facts_set:{connection_id,product_id,evidence,cost_fen?,size?,color?,material?,fit?,season?,occasion?}；补录本地商品事实，不修改平台商品\nops_sop_generate:{date?};ops_task_update:{task_id,expected_version,status?,owner?,note?,evidence?};ops_script_save:{product_id,title,segments,reference_id?,script_id?,expected_version?};ops_render:{script_id,expected_version}\nmemory_propose:{kind,scope,subject,predicate,title,content,quote};memory_forget:{item_ids:[]}",
+                    "additionalProperties": true
+                  }
+                },
+                "required": [
+                  "operation",
+                  "arguments"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Authorized data"
+          }
+        }
+      }
+    }
+  }
+}

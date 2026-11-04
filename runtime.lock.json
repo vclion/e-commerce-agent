@@ -1,0 +1,8 @@
+{
+  "python": "3.12.13",
+  "node": "v24.22.0",
+  "dify": "1.17.1",
+  "dify_commit": "8387590ace4a094de812b7847fc6a4c3a27cd52b",
+  "dsl": "0.7.0",
+  "model": "deepseek-flash"
+}

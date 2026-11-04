@@ -1,0 +1,1522 @@
+[
+  {
+    "title": "远山牛津纺衬衫",
+    "category": "衬衫",
+    "price_yuan": 239,
+    "material": "100%棉",
+    "fit": "合体",
+    "season": "春秋",
+    "occasion": "通勤",
+    "colors": "云白/雾蓝",
+    "group_id": "MEN-001",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "周末重磅棉T恤",
+    "category": "T恤",
+    "price_yuan": 129,
+    "material": "100%棉",
+    "fit": "宽松",
+    "season": "春夏",
+    "occasion": "日常",
+    "colors": "炭黑/本白",
+    "group_id": "MEN-002",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "山径双面抓绒夹克",
+    "category": "夹克",
+    "price_yuan": 359,
+    "material": "100%聚酯纤维",
+    "fit": "宽松",
+    "season": "秋冬",
+    "occasion": "户外休闲",
+    "colors": "松绿/岩灰",
+    "group_id": "MEN-003",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "有序弹力锥形长裤",
+    "category": "长裤",
+    "price_yuan": 269,
+    "material": "68%棉 29%锦纶 3%氨纶",
+    "fit": "锥形",
+    "season": "四季",
+    "occasion": "通勤",
+    "colors": "藏青/卡其",
+    "group_id": "MEN-004",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "暮色美利奴混纺针织衫",
+    "category": "针织衫",
+    "price_yuan": 399,
+    "material": "50%羊毛 50%腈纶",
+    "fit": "合体",
+    "season": "秋冬",
+    "occasion": "通勤",
+    "colors": "燕麦/深咖",
+    "group_id": "MEN-005",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "行旅连帽卫衣",
+    "category": "卫衣",
+    "price_yuan": 229,
+    "material": "80%棉 20%聚酯纤维",
+    "fit": "宽松",
+    "season": "春秋",
+    "occasion": "日常",
+    "colors": "雾灰/海军蓝",
+    "group_id": "MEN-006",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "城市短款风衣",
+    "category": "风衣",
+    "price_yuan": 499,
+    "material": "65%聚酯纤维 35%棉",
+    "fit": "直筒",
+    "season": "春秋",
+    "occasion": "通勤",
+    "colors": "石卡其/墨黑",
+    "group_id": "MEN-007",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "云际轻量羽绒服",
+    "category": "羽绒服",
+    "price_yuan": 799,
+    "material": "100%锦纶；填充物90%鸭绒 10%羽毛",
+    "fit": "宽松",
+    "season": "冬季",
+    "occasion": "日常",
+    "colors": "墨蓝/银灰",
+    "group_id": "MEN-008",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "留白平驳领西装",
+    "category": "西装",
+    "price_yuan": 569,
+    "material": "72%聚酯纤维 25%粘纤 3%氨纶",
+    "fit": "合体",
+    "season": "春秋",
+    "occasion": "通勤",
+    "colors": "炭灰/藏青",
+    "group_id": "MEN-009",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "山谷多袋工装长裤",
+    "category": "长裤",
+    "price_yuan": 299,
+    "material": "98%棉 2%氨纶",
+    "fit": "宽松",
+    "season": "春秋",
+    "occasion": "户外休闲",
+    "colors": "橄榄绿/砂岩",
+    "group_id": "MEN-010",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "午后条纹衬衫",
+    "category": "衬衫",
+    "price_yuan": 259,
+    "material": "100%棉",
+    "fit": "直筒",
+    "season": "春秋",
+    "occasion": "通勤",
+    "colors": "蓝白条纹/灰白条纹",
+    "group_id": "MEN-011",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "海岸亚麻短袖衬衫",
+    "category": "衬衫",
+    "price_yuan": 219,
+    "material": "55%亚麻 45%棉",
+    "fit": "宽松",
+    "season": "夏季",
+    "occasion": "度假",
+    "colors": "沙白/浅卡其",
+    "group_id": "MEN-012",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "原色直筒牛仔裤",
+    "category": "长裤",
+    "price_yuan": 329,
+    "material": "99%棉 1%氨纶",
+    "fit": "直筒",
+    "season": "四季",
+    "occasion": "日常",
+    "colors": "靛蓝/水洗蓝",
+    "group_id": "MEN-013",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "日落拉链针织开衫",
+    "category": "针织衫",
+    "price_yuan": 369,
+    "material": "40%羊毛 30%锦纶 30%腈纶",
+    "fit": "直筒",
+    "season": "秋冬",
+    "occasion": "日常",
+    "colors": "深棕/米灰",
+    "group_id": "MEN-014",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "静线立领夹克",
+    "category": "夹克",
+    "price_yuan": 459,
+    "material": "100%聚酯纤维",
+    "fit": "合体",
+    "season": "春秋",
+    "occasion": "通勤",
+    "colors": "黑色/烟灰",
+    "group_id": "MEN-015",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "远行双褶阔腿裤",
+    "category": "长裤",
+    "price_yuan": 319,
+    "material": "70%聚酯纤维 28%粘纤 2%氨纶",
+    "fit": "阔腿",
+    "season": "春秋",
+    "occasion": "通勤",
+    "colors": "深灰/燕麦",
+    "group_id": "MEN-016",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "北境翻领羊毛大衣",
+    "category": "大衣",
+    "price_yuan": 999,
+    "material": "70%羊毛 30%聚酯纤维",
+    "fit": "直筒",
+    "season": "冬季",
+    "occasion": "通勤",
+    "colors": "驼色/炭黑",
+    "group_id": "MEN-017",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "山风罗纹长袖T恤",
+    "category": "T恤",
+    "price_yuan": 159,
+    "material": "95%棉 5%氨纶",
+    "fit": "合体",
+    "season": "春秋",
+    "occasion": "日常",
+    "colors": "雾白/咖灰",
+    "group_id": "MEN-018",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "周六半拉链卫衣",
+    "category": "卫衣",
+    "price_yuan": 259,
+    "material": "85%棉 15%聚酯纤维",
+    "fit": "宽松",
+    "season": "春秋",
+    "occasion": "户外休闲",
+    "colors": "森林绿/浅灰",
+    "group_id": "MEN-019",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "晴昼抽绳短裤",
+    "category": "短裤",
+    "price_yuan": 139,
+    "material": "100%棉",
+    "fit": "宽松",
+    "season": "夏季",
+    "occasion": "日常",
+    "colors": "卡其/黑色",
+    "group_id": "MEN-020",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "微光灯芯绒衬衫",
+    "category": "衬衫",
+    "price_yuan": 289,
+    "material": "100%棉",
+    "fit": "直筒",
+    "season": "秋冬",
+    "occasion": "日常",
+    "colors": "焦糖/松绿",
+    "group_id": "MEN-021",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "行间针织Polo衫",
+    "category": "针织衫",
+    "price_yuan": 269,
+    "material": "60%棉 40%粘纤",
+    "fit": "合体",
+    "season": "春秋",
+    "occasion": "通勤",
+    "colors": "藏青/米白",
+    "group_id": "MEN-022",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "行者拼接轻夹克",
+    "category": "夹克",
+    "price_yuan": 399,
+    "material": "100%锦纶",
+    "fit": "宽松",
+    "season": "春秋",
+    "occasion": "户外休闲",
+    "colors": "灰绿/深蓝",
+    "group_id": "MEN-023",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "松弛感针织长裤",
+    "category": "长裤",
+    "price_yuan": 249,
+    "material": "76%棉 20%聚酯纤维 4%氨纶",
+    "fit": "直筒",
+    "season": "秋冬",
+    "occasion": "日常",
+    "colors": "麻灰/黑色",
+    "group_id": "MEN-024",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "白昼圆领基础T恤",
+    "category": "T恤",
+    "price_yuan": 89,
+    "material": "100%棉",
+    "fit": "直筒",
+    "season": "四季",
+    "occasion": "日常",
+    "colors": "本白/藏蓝",
+    "group_id": "MEN-025",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "暮山绞花针织衫",
+    "category": "针织衫",
+    "price_yuan": 429,
+    "material": "60%羊毛 40%锦纶",
+    "fit": "宽松",
+    "season": "秋冬",
+    "occasion": "日常",
+    "colors": "奶咖/墨绿",
+    "group_id": "MEN-026",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "薄雾单排扣西装",
+    "category": "西装",
+    "price_yuan": 629,
+    "material": "55%羊毛 45%聚酯纤维",
+    "fit": "直筒",
+    "season": "秋冬",
+    "occasion": "通勤",
+    "colors": "深棕/中灰",
+    "group_id": "MEN-027",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "石径直筒休闲长裤",
+    "category": "长裤",
+    "price_yuan": 239,
+    "material": "97%棉 3%氨纶",
+    "fit": "直筒",
+    "season": "四季",
+    "occasion": "日常",
+    "colors": "米色/棕色",
+    "group_id": "MEN-028",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "听风棒球领夹克",
+    "category": "夹克",
+    "price_yuan": 339,
+    "material": "100%聚酯纤维",
+    "fit": "宽松",
+    "season": "春秋",
+    "occasion": "日常",
+    "colors": "海军蓝/奶白",
+    "group_id": "MEN-029",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "栖木华夫格卫衣",
+    "category": "卫衣",
+    "price_yuan": 209,
+    "material": "92%棉 8%氨纶",
+    "fit": "直筒",
+    "season": "春秋",
+    "occasion": "日常",
+    "colors": "雾绿/米白",
+    "group_id": "MEN-030",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "山石厚实羽绒外套",
+    "category": "羽绒服",
+    "price_yuan": 1099,
+    "material": "100%聚酯纤维；填充物90%鸭绒 10%羽毛",
+    "fit": "宽松",
+    "season": "冬季",
+    "occasion": "户外休闲",
+    "colors": "炭黑/岩棕",
+    "group_id": "MEN-031",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "轻旅可拆帽风衣",
+    "category": "风衣",
+    "price_yuan": 659,
+    "material": "75%锦纶 25%棉",
+    "fit": "宽松",
+    "season": "春秋",
+    "occasion": "户外休闲",
+    "colors": "深卡其/海蓝",
+    "group_id": "MEN-032",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "青屿格纹衬衫",
+    "category": "衬衫",
+    "price_yuan": 279,
+    "material": "100%棉",
+    "fit": "宽松",
+    "season": "秋冬",
+    "occasion": "日常",
+    "colors": "棕绿格/蓝灰格",
+    "group_id": "MEN-033",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "游牧双面针织马甲",
+    "category": "针织衫",
+    "price_yuan": 239,
+    "material": "50%棉 50%腈纶",
+    "fit": "直筒",
+    "season": "春秋",
+    "occasion": "通勤",
+    "colors": "咖色/灰色",
+    "group_id": "MEN-034",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "慢行弹力束脚裤",
+    "category": "长裤",
+    "price_yuan": 219,
+    "material": "70%棉 25%聚酯纤维 5%氨纶",
+    "fit": "锥形",
+    "season": "春秋",
+    "occasion": "户外休闲",
+    "colors": "深灰/黑色",
+    "group_id": "MEN-035",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "海风亚麻短裤",
+    "category": "短裤",
+    "price_yuan": 169,
+    "material": "55%亚麻 45%棉",
+    "fit": "直筒",
+    "season": "夏季",
+    "occasion": "度假",
+    "colors": "原麻/沙灰",
+    "group_id": "MEN-036",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "守候双排扣大衣",
+    "category": "大衣",
+    "price_yuan": 1199,
+    "material": "80%羊毛 20%锦纶",
+    "fit": "直筒",
+    "season": "冬季",
+    "occasion": "通勤",
+    "colors": "深海蓝/暖驼",
+    "group_id": "MEN-037",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "晨光亨利领长袖",
+    "category": "T恤",
+    "price_yuan": 179,
+    "material": "95%棉 5%氨纶",
+    "fit": "合体",
+    "season": "春秋",
+    "occasion": "日常",
+    "colors": "奶白/深褐",
+    "group_id": "MEN-038",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "岩层短款棉感夹克",
+    "category": "夹克",
+    "price_yuan": 429,
+    "material": "60%棉 40%聚酯纤维",
+    "fit": "直筒",
+    "season": "秋冬",
+    "occasion": "日常",
+    "colors": "铁灰/泥棕",
+    "group_id": "MEN-039",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "无界商务弹力长裤",
+    "category": "长裤",
+    "price_yuan": 359,
+    "material": "66%聚酯纤维 30%粘纤 4%氨纶",
+    "fit": "合体",
+    "season": "四季",
+    "occasion": "通勤",
+    "colors": "藏青/灰色",
+    "group_id": "MEN-040",
+    "shop_id": "a",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ]
+  },
+  {
+    "title": "晨雾垂感飘带衬衫",
+    "category": "衬衫",
+    "price_yuan": 259,
+    "material": "72%粘纤 28%聚酯纤维",
+    "fit": "合体",
+    "season": "春秋",
+    "occasion": "通勤",
+    "colors": "珍珠白/雾粉",
+    "group_id": "WOM-001",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "晚风收腰针织连衣裙",
+    "category": "连衣裙",
+    "price_yuan": 399,
+    "material": "50%粘纤 28%聚酯纤维 22%锦纶",
+    "fit": "收腰",
+    "season": "秋冬",
+    "occasion": "通勤",
+    "colors": "燕麦/栗棕",
+    "group_id": "WOM-002",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "云朵羊毛混纺开衫",
+    "category": "针织衫",
+    "price_yuan": 329,
+    "material": "40%羊毛 30%锦纶 30%腈纶",
+    "fit": "宽松",
+    "season": "秋冬",
+    "occasion": "日常",
+    "colors": "奶油白/鼠尾草绿",
+    "group_id": "WOM-003",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "知性高腰直筒长裤",
+    "category": "长裤",
+    "price_yuan": 289,
+    "material": "68%聚酯纤维 28%粘纤 4%氨纶",
+    "fit": "直筒",
+    "season": "四季",
+    "occasion": "通勤",
+    "colors": "炭灰/米杏",
+    "group_id": "WOM-004",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "花间方领碎花连衣裙",
+    "category": "连衣裙",
+    "price_yuan": 359,
+    "material": "100%粘纤",
+    "fit": "收腰",
+    "season": "春夏",
+    "occasion": "度假",
+    "colors": "蓝白碎花/杏色碎花",
+    "group_id": "WOM-005",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "轻语垂感西装",
+    "category": "西装",
+    "price_yuan": 459,
+    "material": "70%聚酯纤维 27%粘纤 3%氨纶",
+    "fit": "直筒",
+    "season": "春秋",
+    "occasion": "通勤",
+    "colors": "燕麦/浅灰",
+    "group_id": "WOM-006",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "雨巷系带风衣",
+    "category": "风衣",
+    "price_yuan": 599,
+    "material": "65%棉 35%聚酯纤维",
+    "fit": "收腰",
+    "season": "春秋",
+    "occasion": "通勤",
+    "colors": "浅卡其/沙棕",
+    "group_id": "WOM-007",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "微醺缎面半身裙",
+    "category": "半身裙",
+    "price_yuan": 269,
+    "material": "97%聚酯纤维 3%氨纶",
+    "fit": "A字",
+    "season": "四季",
+    "occasion": "约会",
+    "colors": "香槟/墨黑",
+    "group_id": "WOM-008",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "拾光短款羊毛大衣",
+    "category": "大衣",
+    "price_yuan": 899,
+    "material": "80%羊毛 20%聚酯纤维",
+    "fit": "宽松",
+    "season": "冬季",
+    "occasion": "通勤",
+    "colors": "暖驼/奶白",
+    "group_id": "WOM-009",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "白桃罗纹长袖T恤",
+    "category": "T恤",
+    "price_yuan": 139,
+    "material": "95%棉 5%氨纶",
+    "fit": "合体",
+    "season": "春秋",
+    "occasion": "日常",
+    "colors": "米白/浅粉",
+    "group_id": "WOM-010",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "漫步高腰阔腿牛仔裤",
+    "category": "长裤",
+    "price_yuan": 299,
+    "material": "100%棉",
+    "fit": "阔腿",
+    "season": "四季",
+    "occasion": "日常",
+    "colors": "复古蓝/浅水洗蓝",
+    "group_id": "WOM-011",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "轻舞百褶半身裙",
+    "category": "半身裙",
+    "price_yuan": 319,
+    "material": "100%聚酯纤维",
+    "fit": "A字",
+    "season": "春秋",
+    "occasion": "通勤",
+    "colors": "灰褐/藏青",
+    "group_id": "WOM-012",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "柔光真丝混纺衬衫",
+    "category": "衬衫",
+    "price_yuan": 469,
+    "material": "30%桑蚕丝 70%粘纤",
+    "fit": "直筒",
+    "season": "春秋",
+    "occasion": "通勤",
+    "colors": "象牙白/烟紫",
+    "group_id": "WOM-013",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "小城短款针织衫",
+    "category": "针织衫",
+    "price_yuan": 239,
+    "material": "60%棉 40%腈纶",
+    "fit": "合体",
+    "season": "春秋",
+    "occasion": "日常",
+    "colors": "浅咖/雾蓝",
+    "group_id": "WOM-014",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "慵懒落肩卫衣",
+    "category": "卫衣",
+    "price_yuan": 229,
+    "material": "80%棉 20%聚酯纤维",
+    "fit": "宽松",
+    "season": "春秋",
+    "occasion": "日常",
+    "colors": "燕麦/浅灰",
+    "group_id": "WOM-015",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "晴空轻量羽绒服",
+    "category": "羽绒服",
+    "price_yuan": 699,
+    "material": "100%锦纶；填充物90%鸭绒 10%羽毛",
+    "fit": "宽松",
+    "season": "冬季",
+    "occasion": "日常",
+    "colors": "奶黄/云白",
+    "group_id": "WOM-016",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "法式海军领连衣裙",
+    "category": "连衣裙",
+    "price_yuan": 429,
+    "material": "65%聚酯纤维 35%粘纤",
+    "fit": "收腰",
+    "season": "春秋",
+    "occasion": "约会",
+    "colors": "藏青/米白",
+    "group_id": "WOM-017",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "桥边复古灯芯绒夹克",
+    "category": "夹克",
+    "price_yuan": 369,
+    "material": "100%棉",
+    "fit": "直筒",
+    "season": "秋冬",
+    "occasion": "日常",
+    "colors": "栗棕/奶咖",
+    "group_id": "WOM-018",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "流光中腰锥形长裤",
+    "category": "长裤",
+    "price_yuan": 279,
+    "material": "65%聚酯纤维 32%粘纤 3%氨纶",
+    "fit": "锥形",
+    "season": "春秋",
+    "occasion": "通勤",
+    "colors": "黑色/浅卡其",
+    "group_id": "WOM-019",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "风铃亚麻短裤",
+    "category": "短裤",
+    "price_yuan": 189,
+    "material": "55%亚麻 45%棉",
+    "fit": "宽松",
+    "season": "夏季",
+    "occasion": "度假",
+    "colors": "原麻/米白",
+    "group_id": "WOM-020",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "晨露荷叶领衬衫",
+    "category": "衬衫",
+    "price_yuan": 279,
+    "material": "100%棉",
+    "fit": "宽松",
+    "season": "春秋",
+    "occasion": "日常",
+    "colors": "奶白/浅蓝",
+    "group_id": "WOM-021",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "月影小香感针织外套",
+    "category": "针织衫",
+    "price_yuan": 389,
+    "material": "52%棉 28%聚酯纤维 20%锦纶",
+    "fit": "直筒",
+    "season": "秋冬",
+    "occasion": "通勤",
+    "colors": "米杏/黑色",
+    "group_id": "WOM-022",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "秋笺格纹半身裙",
+    "category": "半身裙",
+    "price_yuan": 299,
+    "material": "45%羊毛 55%聚酯纤维",
+    "fit": "A字",
+    "season": "秋冬",
+    "occasion": "通勤",
+    "colors": "咖灰格/棕米格",
+    "group_id": "WOM-023",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "漫游短款夹克",
+    "category": "夹克",
+    "price_yuan": 399,
+    "material": "100%聚酯纤维",
+    "fit": "宽松",
+    "season": "春秋",
+    "occasion": "日常",
+    "colors": "灰绿/奶白",
+    "group_id": "WOM-024",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "假日棉感印花T恤",
+    "category": "T恤",
+    "price_yuan": 119,
+    "material": "100%棉",
+    "fit": "宽松",
+    "season": "春夏",
+    "occasion": "日常",
+    "colors": "奶白印花/浅粉印花",
+    "group_id": "WOM-025",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "檐下双排扣风衣",
+    "category": "风衣",
+    "price_yuan": 659,
+    "material": "70%棉 30%锦纶",
+    "fit": "直筒",
+    "season": "春秋",
+    "occasion": "通勤",
+    "colors": "暖卡其/灰绿",
+    "group_id": "WOM-026",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "茶歇V领连衣裙",
+    "category": "连衣裙",
+    "price_yuan": 459,
+    "material": "70%粘纤 30%锦纶",
+    "fit": "收腰",
+    "season": "春秋",
+    "occasion": "约会",
+    "colors": "酒红/深绿",
+    "group_id": "WOM-027",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "初霜高领针织衫",
+    "category": "针织衫",
+    "price_yuan": 359,
+    "material": "50%羊毛 50%腈纶",
+    "fit": "合体",
+    "season": "秋冬",
+    "occasion": "通勤",
+    "colors": "浅驼/米白",
+    "group_id": "WOM-028",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "星夜修身西装",
+    "category": "西装",
+    "price_yuan": 529,
+    "material": "60%聚酯纤维 37%粘纤 3%氨纶",
+    "fit": "合体",
+    "season": "四季",
+    "occasion": "通勤",
+    "colors": "黑色/烟灰",
+    "group_id": "WOM-029",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "微风松紧腰长裤",
+    "category": "长裤",
+    "price_yuan": 249,
+    "material": "60%粘纤 35%锦纶 5%氨纶",
+    "fit": "阔腿",
+    "season": "春秋",
+    "occasion": "日常",
+    "colors": "深咖/浅灰",
+    "group_id": "WOM-030",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "冬信长款羊毛大衣",
+    "category": "大衣",
+    "price_yuan": 1299,
+    "material": "90%羊毛 10%锦纶",
+    "fit": "直筒",
+    "season": "冬季",
+    "occasion": "通勤",
+    "colors": "燕麦/焦糖",
+    "group_id": "WOM-031",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "暖意连帽羽绒服",
+    "category": "羽绒服",
+    "price_yuan": 999,
+    "material": "100%聚酯纤维；填充物90%鸭绒 10%羽毛",
+    "fit": "宽松",
+    "season": "冬季",
+    "occasion": "户外休闲",
+    "colors": "奶咖/深灰",
+    "group_id": "WOM-032",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "初夏吊带连衣裙",
+    "category": "连衣裙",
+    "price_yuan": 299,
+    "material": "100%棉",
+    "fit": "A字",
+    "season": "夏季",
+    "occasion": "度假",
+    "colors": "奶黄/雾蓝",
+    "group_id": "WOM-033",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "晴日牛仔半身裙",
+    "category": "半身裙",
+    "price_yuan": 259,
+    "material": "98%棉 2%氨纶",
+    "fit": "直筒",
+    "season": "春夏",
+    "occasion": "日常",
+    "colors": "水洗蓝/奶白",
+    "group_id": "WOM-034",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "信笺条纹针织衫",
+    "category": "针织衫",
+    "price_yuan": 269,
+    "material": "80%棉 20%锦纶",
+    "fit": "直筒",
+    "season": "春秋",
+    "occasion": "通勤",
+    "colors": "黑白条纹/蓝白条纹",
+    "group_id": "WOM-035",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "山茶气质雪纺衬衫",
+    "category": "衬衫",
+    "price_yuan": 239,
+    "material": "100%聚酯纤维",
+    "fit": "宽松",
+    "season": "春秋",
+    "occasion": "通勤",
+    "colors": "杏色/雾紫",
+    "group_id": "WOM-036",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "日常抽绳卫衣",
+    "category": "卫衣",
+    "price_yuan": 209,
+    "material": "85%棉 15%聚酯纤维",
+    "fit": "宽松",
+    "season": "春秋",
+    "occasion": "日常",
+    "colors": "浅灰/豆沙",
+    "group_id": "WOM-037",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "余晖褶裥阔腿长裤",
+    "category": "长裤",
+    "price_yuan": 329,
+    "material": "72%聚酯纤维 25%粘纤 3%氨纶",
+    "fit": "阔腿",
+    "season": "秋冬",
+    "occasion": "通勤",
+    "colors": "咖啡/黑色",
+    "group_id": "WOM-038",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "流萤蕾丝拼接连衣裙",
+    "category": "连衣裙",
+    "price_yuan": 499,
+    "material": "65%粘纤 35%锦纶",
+    "fit": "收腰",
+    "season": "春秋",
+    "occasion": "约会",
+    "colors": "黑色/奶白",
+    "group_id": "WOM-039",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "title": "芦苇简约短款西装",
+    "category": "西装",
+    "price_yuan": 399,
+    "material": "75%聚酯纤维 22%粘纤 3%氨纶",
+    "fit": "直筒",
+    "season": "春秋",
+    "occasion": "通勤",
+    "colors": "米杏/可可",
+    "group_id": "WOM-040",
+    "shop_id": "b",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  }
+]

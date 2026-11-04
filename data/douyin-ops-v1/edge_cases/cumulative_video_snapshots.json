@@ -1,0 +1,14 @@
+[
+  {
+    "video_id": "TEST-CUMULATIVE",
+    "captured_at": "2026-10-16T10:00:00+08:00",
+    "views": 1000,
+    "metric_grain": "cumulative"
+  },
+  {
+    "video_id": "TEST-CUMULATIVE",
+    "captured_at": "2026-10-16T11:00:00+08:00",
+    "views": 1500,
+    "metric_grain": "cumulative"
+  }
+]
